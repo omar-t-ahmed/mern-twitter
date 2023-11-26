@@ -1,0 +1,28 @@
+.links-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logout {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+}
+
+.logout:hover {background-color: rgb(50, 23, 169)}
+
+.logout:active {
+    background-color: rgb(64, 27, 228);
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
